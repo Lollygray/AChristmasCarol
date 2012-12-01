@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B25F2FE3166996EB00E705CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F2FE2166996EB00E705CD /* UIKit.framework */; };
+		B25F2FE5166996EB00E705CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F2FE4166996EB00E705CD /* Foundation.framework */; };
+		B25F2FE7166996EB00E705CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F2FE6166996EB00E705CD /* CoreGraphics.framework */; };
+		B25F2FED166996EB00E705CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B25F2FEB166996EB00E705CD /* InfoPlist.strings */; };
+		B25F2FEF166996EB00E705CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F2FEE166996EB00E705CD /* main.m */; };
+		B25F2FF3166996EB00E705CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F2FF2166996EB00E705CD /* AppDelegate.m */; };
+		B25F2FF5166996EB00E705CD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B25F2FF4166996EB00E705CD /* Default.png */; };
+		B25F2FF7166996EB00E705CD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B25F2FF6166996EB00E705CD /* Default@2x.png */; };
+		B25F2FF9166996EB00E705CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B25F2FF8166996EB00E705CD /* Default-568h@2x.png */; };
+		B25F2FFC166996EB00E705CD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25F2FFA166996EB00E705CD /* MainStoryboard.storyboard */; };
+		B25F2FFF166996EB00E705CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F2FFE166996EB00E705CD /* ViewController.m */; };
+		B25F3007166996EB00E705CD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F3006166996EB00E705CD /* SenTestingKit.framework */; };
+		B25F3008166996EB00E705CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F2FE2166996EB00E705CD /* UIKit.framework */; };
+		B25F3009166996EB00E705CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F2FE4166996EB00E705CD /* Foundation.framework */; };
+		B25F3011166996EB00E705CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B25F300F166996EB00E705CD /* InfoPlist.strings */; };
+		B25F3014166996EB00E705CD /* A_Christmas_CarolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F3013166996EB00E705CD /* A_Christmas_CarolTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B25F300A166996EB00E705CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B25F2FD5166996EB00E705CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B25F2FDD166996EB00E705CD;
+			remoteInfo = "A Christmas Carol";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B25F2FDE166996EB00E705CD /* A Christmas Carol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Christmas Carol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25F2FE2166996EB00E705CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B25F2FE4166996EB00E705CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B25F2FE6166996EB00E705CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B25F2FEA166996EB00E705CD /* A Christmas Carol-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A Christmas Carol-Info.plist"; sourceTree = "<group>"; };
+		B25F2FEC166996EB00E705CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B25F2FEE166996EB00E705CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B25F2FF0166996EB00E705CD /* A Christmas Carol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "A Christmas Carol-Prefix.pch"; sourceTree = "<group>"; };
+		B25F2FF1166996EB00E705CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B25F2FF2166996EB00E705CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B25F2FF4166996EB00E705CD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B25F2FF6166996EB00E705CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B25F2FF8166996EB00E705CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B25F2FFB166996EB00E705CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B25F2FFD166996EB00E705CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B25F2FFE166996EB00E705CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B25F3005166996EB00E705CD /* A Christmas CarolTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A Christmas CarolTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25F3006166996EB00E705CD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B25F300E166996EB00E705CD /* A Christmas CarolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A Christmas CarolTests-Info.plist"; sourceTree = "<group>"; };
+		B25F3010166996EB00E705CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B25F3012166996EB00E705CD /* A_Christmas_CarolTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A_Christmas_CarolTests.h; sourceTree = "<group>"; };
+		B25F3013166996EB00E705CD /* A_Christmas_CarolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A_Christmas_CarolTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B25F2FDB166996EB00E705CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F2FE3166996EB00E705CD /* UIKit.framework in Frameworks */,
+				B25F2FE5166996EB00E705CD /* Foundation.framework in Frameworks */,
+				B25F2FE7166996EB00E705CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25F3001166996EB00E705CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F3007166996EB00E705CD /* SenTestingKit.framework in Frameworks */,
+				B25F3008166996EB00E705CD /* UIKit.framework in Frameworks */,
+				B25F3009166996EB00E705CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B25F2FD3166996EB00E705CD = {
+			isa = PBXGroup;
+			children = (
+				B25F2FE8166996EB00E705CD /* A Christmas Carol */,
+				B25F300C166996EB00E705CD /* A Christmas CarolTests */,
+				B25F2FE1166996EB00E705CD /* Frameworks */,
+				B25F2FDF166996EB00E705CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B25F2FDF166996EB00E705CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B25F2FDE166996EB00E705CD /* A Christmas Carol.app */,
+				B25F3005166996EB00E705CD /* A Christmas CarolTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B25F2FE1166996EB00E705CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B25F2FE2166996EB00E705CD /* UIKit.framework */,
+				B25F2FE4166996EB00E705CD /* Foundation.framework */,
+				B25F2FE6166996EB00E705CD /* CoreGraphics.framework */,
+				B25F3006166996EB00E705CD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B25F2FE8166996EB00E705CD /* A Christmas Carol */ = {
+			isa = PBXGroup;
+			children = (
+				B25F2FF1166996EB00E705CD /* AppDelegate.h */,
+				B25F2FF2166996EB00E705CD /* AppDelegate.m */,
+				B25F2FFA166996EB00E705CD /* MainStoryboard.storyboard */,
+				B25F2FFD166996EB00E705CD /* ViewController.h */,
+				B25F2FFE166996EB00E705CD /* ViewController.m */,
+				B25F2FE9166996EB00E705CD /* Supporting Files */,
+			);
+			path = "A Christmas Carol";
+			sourceTree = "<group>";
+		};
+		B25F2FE9166996EB00E705CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B25F2FEA166996EB00E705CD /* A Christmas Carol-Info.plist */,
+				B25F2FEB166996EB00E705CD /* InfoPlist.strings */,
+				B25F2FEE166996EB00E705CD /* main.m */,
+				B25F2FF0166996EB00E705CD /* A Christmas Carol-Prefix.pch */,
+				B25F2FF4166996EB00E705CD /* Default.png */,
+				B25F2FF6166996EB00E705CD /* Default@2x.png */,
+				B25F2FF8166996EB00E705CD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B25F300C166996EB00E705CD /* A Christmas CarolTests */ = {
+			isa = PBXGroup;
+			children = (
+				B25F3012166996EB00E705CD /* A_Christmas_CarolTests.h */,
+				B25F3013166996EB00E705CD /* A_Christmas_CarolTests.m */,
+				B25F300D166996EB00E705CD /* Supporting Files */,
+			);
+			path = "A Christmas CarolTests";
+			sourceTree = "<group>";
+		};
+		B25F300D166996EB00E705CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B25F300E166996EB00E705CD /* A Christmas CarolTests-Info.plist */,
+				B25F300F166996EB00E705CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B25F2FDD166996EB00E705CD /* A Christmas Carol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25F3017166996EB00E705CD /* Build configuration list for PBXNativeTarget "A Christmas Carol" */;
+			buildPhases = (
+				B25F2FDA166996EB00E705CD /* Sources */,
+				B25F2FDB166996EB00E705CD /* Frameworks */,
+				B25F2FDC166996EB00E705CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "A Christmas Carol";
+			productName = "A Christmas Carol";
+			productReference = B25F2FDE166996EB00E705CD /* A Christmas Carol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B25F3004166996EB00E705CD /* A Christmas CarolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25F301A166996EB00E705CD /* Build configuration list for PBXNativeTarget "A Christmas CarolTests" */;
+			buildPhases = (
+				B25F3000166996EB00E705CD /* Sources */,
+				B25F3001166996EB00E705CD /* Frameworks */,
+				B25F3002166996EB00E705CD /* Resources */,
+				B25F3003166996EB00E705CD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B25F300B166996EB00E705CD /* PBXTargetDependency */,
+			);
+			name = "A Christmas CarolTests";
+			productName = "A Christmas CarolTests";
+			productReference = B25F3005166996EB00E705CD /* A Christmas CarolTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B25F2FD5166996EB00E705CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Lori Graybill";
+			};
+			buildConfigurationList = B25F2FD8166996EB00E705CD /* Build configuration list for PBXProject "A Christmas Carol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B25F2FD3166996EB00E705CD;
+			productRefGroup = B25F2FDF166996EB00E705CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B25F2FDD166996EB00E705CD /* A Christmas Carol */,
+				B25F3004166996EB00E705CD /* A Christmas CarolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B25F2FDC166996EB00E705CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F2FED166996EB00E705CD /* InfoPlist.strings in Resources */,
+				B25F2FF5166996EB00E705CD /* Default.png in Resources */,
+				B25F2FF7166996EB00E705CD /* Default@2x.png in Resources */,
+				B25F2FF9166996EB00E705CD /* Default-568h@2x.png in Resources */,
+				B25F2FFC166996EB00E705CD /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25F3002166996EB00E705CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F3011166996EB00E705CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B25F3003166996EB00E705CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B25F2FDA166996EB00E705CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F2FEF166996EB00E705CD /* main.m in Sources */,
+				B25F2FF3166996EB00E705CD /* AppDelegate.m in Sources */,
+				B25F2FFF166996EB00E705CD /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25F3000166996EB00E705CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25F3014166996EB00E705CD /* A_Christmas_CarolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B25F300B166996EB00E705CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B25F2FDD166996EB00E705CD /* A Christmas Carol */;
+			targetProxy = B25F300A166996EB00E705CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B25F2FEB166996EB00E705CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25F2FEC166996EB00E705CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B25F2FFA166996EB00E705CD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25F2FFB166996EB00E705CD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B25F300F166996EB00E705CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25F3010166996EB00E705CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B25F3015166996EB00E705CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B25F3016166996EB00E705CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B25F3018166996EB00E705CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A Christmas Carol/A Christmas Carol-Prefix.pch";
+				INFOPLIST_FILE = "A Christmas Carol/A Christmas Carol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B25F3019166996EB00E705CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A Christmas Carol/A Christmas Carol-Prefix.pch";
+				INFOPLIST_FILE = "A Christmas Carol/A Christmas Carol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B25F301B166996EB00E705CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/A Christmas Carol.app/A Christmas Carol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A Christmas Carol/A Christmas Carol-Prefix.pch";
+				INFOPLIST_FILE = "A Christmas CarolTests/A Christmas CarolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B25F301C166996EB00E705CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/A Christmas Carol.app/A Christmas Carol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A Christmas Carol/A Christmas Carol-Prefix.pch";
+				INFOPLIST_FILE = "A Christmas CarolTests/A Christmas CarolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B25F2FD8166996EB00E705CD /* Build configuration list for PBXProject "A Christmas Carol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25F3015166996EB00E705CD /* Debug */,
+				B25F3016166996EB00E705CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25F3017166996EB00E705CD /* Build configuration list for PBXNativeTarget "A Christmas Carol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25F3018166996EB00E705CD /* Debug */,
+				B25F3019166996EB00E705CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B25F301A166996EB00E705CD /* Build configuration list for PBXNativeTarget "A Christmas CarolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25F301B166996EB00E705CD /* Debug */,
+				B25F301C166996EB00E705CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B25F2FD5166996EB00E705CD /* Project object */;
+}
