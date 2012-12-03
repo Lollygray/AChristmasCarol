@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2016650166C3154008C8AD8 /* PastGhostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B201664E166C3154008C8AD8 /* PastGhostViewController.m */; };
+		B2016651166C3154008C8AD8 /* PastGhostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B201664F166C3154008C8AD8 /* PastGhostViewController.xib */; };
+		B2016655166C3496008C8AD8 /* PastScroogeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2016653166C3496008C8AD8 /* PastScroogeViewController.m */; };
+		B2016656166C3496008C8AD8 /* PastScroogeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2016654166C3496008C8AD8 /* PastScroogeViewController.xib */; };
+		B201665A166C36FE008C8AD8 /* BelleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2016658166C36FE008C8AD8 /* BelleViewController.m */; };
+		B201665B166C36FE008C8AD8 /* BelleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2016659166C36FE008C8AD8 /* BelleViewController.xib */; };
+		B201665F166C38BE008C8AD8 /* PastGreedScroogeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B201665D166C38BE008C8AD8 /* PastGreedScroogeViewController.m */; };
+		B2016660166C38BE008C8AD8 /* PastGreedScroogeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B201665E166C38BE008C8AD8 /* PastGreedScroogeViewController.xib */; };
+		B2016666166C3C49008C8AD8 /* PresentGhostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2016664166C3C49008C8AD8 /* PresentGhostViewController.m */; };
+		B2016667166C3C49008C8AD8 /* PresentGhostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2016665166C3C49008C8AD8 /* PresentGhostViewController.xib */; };
+		B201666B166C3C64008C8AD8 /* PresentTinyTimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2016669166C3C64008C8AD8 /* PresentTinyTimViewController.m */; };
+		B201666C166C3C64008C8AD8 /* PresentTinyTimViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B201666A166C3C64008C8AD8 /* PresentTinyTimViewController.xib */; };
+		B2016670166C3C80008C8AD8 /* PresentMarthaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B201666E166C3C80008C8AD8 /* PresentMarthaViewController.m */; };
+		B2016671166C3C80008C8AD8 /* PresentMarthaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B201666F166C3C80008C8AD8 /* PresentMarthaViewController.xib */; };
+		B2016675166C3C9D008C8AD8 /* PresentScroogeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2016673166C3C9D008C8AD8 /* PresentScroogeViewController.m */; };
+		B2016676166C3C9D008C8AD8 /* PresentScroogeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2016674166C3C9D008C8AD8 /* PresentScroogeViewController.xib */; };
+		B201667A166C3CB7008C8AD8 /* PresentCratchettFamilyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2016678166C3CB7008C8AD8 /* PresentCratchettFamilyViewController.m */; };
+		B201667B166C3CB7008C8AD8 /* PresentCratchettFamilyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2016679166C3CB7008C8AD8 /* PresentCratchettFamilyViewController.xib */; };
+		B2016680166C3D0E008C8AD8 /* FutureGhostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B201667E166C3D0E008C8AD8 /* FutureGhostViewController.m */; };
+		B2016681166C3D0E008C8AD8 /* FutureGhostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B201667F166C3D0E008C8AD8 /* FutureGhostViewController.xib */; };
+		B2016685166C3D28008C8AD8 /* FutureGraveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2016683166C3D28008C8AD8 /* FutureGraveViewController.m */; };
+		B2016686166C3D28008C8AD8 /* FutureGraveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2016684166C3D28008C8AD8 /* FutureGraveViewController.xib */; };
+		B201668A166C3D48008C8AD8 /* FutureBobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2016688166C3D48008C8AD8 /* FutureBobViewController.m */; };
+		B201668B166C3D48008C8AD8 /* FutureBobViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2016689166C3D48008C8AD8 /* FutureBobViewController.xib */; };
+		B2016690166C3D89008C8AD8 /* ChangeHappyScroogeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B201668E166C3D89008C8AD8 /* ChangeHappyScroogeViewController.m */; };
+		B2016691166C3D89008C8AD8 /* ChangeHappyScroogeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B201668F166C3D89008C8AD8 /* ChangeHappyScroogeViewController.xib */; };
+		B2016695166C3DA3008C8AD8 /* ChangeBobRaiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2016693166C3DA3008C8AD8 /* ChangeBobRaiseViewController.m */; };
+		B2016696166C3DA3008C8AD8 /* ChangeBobRaiseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2016694166C3DA3008C8AD8 /* ChangeBobRaiseViewController.xib */; };
+		B201669A166C3DC2008C8AD8 /* ChangeFamilyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2016698166C3DC2008C8AD8 /* ChangeFamilyViewController.m */; };
+		B201669B166C3DC2008C8AD8 /* ChangeFamilyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2016699166C3DC2008C8AD8 /* ChangeFamilyViewController.xib */; };
 		B25F2FE3166996EB00E705CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F2FE2166996EB00E705CD /* UIKit.framework */; };
 		B25F2FE5166996EB00E705CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F2FE4166996EB00E705CD /* Foundation.framework */; };
 		B25F2FE7166996EB00E705CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F2FE6166996EB00E705CD /* CoreGraphics.framework */; };
@@ -23,6 +53,42 @@
 		B25F3009166996EB00E705CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25F2FE4166996EB00E705CD /* Foundation.framework */; };
 		B25F3011166996EB00E705CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B25F300F166996EB00E705CD /* InfoPlist.strings */; };
 		B25F3014166996EB00E705CD /* A_Christmas_CarolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F3013166996EB00E705CD /* A_Christmas_CarolTests.m */; };
+		B25F303F16699B9200E705CD /* PastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F303D16699B9200E705CD /* PastViewController.m */; };
+		B25F30521669A0CC00E705CD /* 1983-mickey-tim-gone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30411669A0CC00E705CD /* 1983-mickey-tim-gone.jpg */; };
+		B25F30531669A0CC00E705CD /* 1983-mickey-children.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30421669A0CC00E705CD /* 1983-mickey-children.jpg */; };
+		B25F30541669A0CC00E705CD /* 1983-mickey-clerk-scrooge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30431669A0CC00E705CD /* 1983-mickey-clerk-scrooge.jpg */; };
+		B25F30551669A0CC00E705CD /* 1983-mickey-mr-fezziwig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30441669A0CC00E705CD /* 1983-mickey-mr-fezziwig.jpg */; };
+		B25F30561669A0CC00E705CD /* 1983-mickey-past.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30451669A0CC00E705CD /* 1983-mickey-past.jpg */; };
+		B25F30571669A0CC00E705CD /* 1983-mickey-solicitors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30461669A0CC00E705CD /* 1983-mickey-solicitors.jpg */; };
+		B25F30581669A0CC00E705CD /* 1983-mickey-fred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30471669A0CC00E705CD /* 1983-mickey-fred.jpg */; };
+		B25F30591669A0CC00E705CD /* 1983-mickey-bob-cratchit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30481669A0CC00E705CD /* 1983-mickey-bob-cratchit.jpg */; };
+		B25F305A1669A0CC00E705CD /* 1983-mickey-cratchit-raise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30491669A0CC00E705CD /* 1983-mickey-cratchit-raise.jpg */; };
+		B25F305B1669A0CC00E705CD /* 1983-mickey-happy-scrooge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F304A1669A0CC00E705CD /* 1983-mickey-happy-scrooge.jpg */; };
+		B25F305C1669A0CC00E705CD /* 1983-mickey-grave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F304B1669A0CC00E705CD /* 1983-mickey-grave.jpg */; };
+		B25F305D1669A0CC00E705CD /* 1983-mickey-future.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F304C1669A0CC00E705CD /* 1983-mickey-future.jpg */; };
+		B25F305E1669A0CC00E705CD /* 1983-mickey-tiny-tim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F304D1669A0CC00E705CD /* 1983-mickey-tiny-tim.jpg */; };
+		B25F305F1669A0CC00E705CD /* 1983-mickey-mrs-cratchit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F304E1669A0CC00E705CD /* 1983-mickey-mrs-cratchit.jpg */; };
+		B25F30601669A0CC00E705CD /* 1983-mickey-present.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F304F1669A0CC00E705CD /* 1983-mickey-present.jpg */; };
+		B25F30611669A0CC00E705CD /* 1983-mickey-greed-scrooge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30501669A0CC00E705CD /* 1983-mickey-greed-scrooge.jpg */; };
+		B25F30621669A0CC00E705CD /* 1983-mickey-belle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30511669A0CC00E705CD /* 1983-mickey-belle.jpg */; };
+		B25F30671669A26800E705CD /* disney-graphics-scrooge-mcduck-514541.gif in Resources */ = {isa = PBXBuildFile; fileRef = B25F30631669A26800E705CD /* disney-graphics-scrooge-mcduck-514541.gif */; };
+		B25F30681669A26800E705CD /* ScroogeMcDuck.gif in Resources */ = {isa = PBXBuildFile; fileRef = B25F30641669A26800E705CD /* ScroogeMcDuck.gif */; };
+		B25F30691669A26800E705CD /* scrooge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30651669A26800E705CD /* scrooge.jpg */; };
+		B25F306A1669A26800E705CD /* Scrooge-McDuck-Thanksgiving-Dinner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B25F30661669A26800E705CD /* Scrooge-McDuck-Thanksgiving-Dinner.jpg */; };
+		B25F306E1669A4F100E705CD /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F306C1669A4F100E705CD /* PresentViewController.m */; };
+		B25F30731669A8E700E705CD /* FutureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F30711669A8E700E705CD /* FutureViewController.m */; };
+		B25F30781669AA7300E705CD /* ChangedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F30761669AA7300E705CD /* ChangedViewController.m */; };
+		B25F3081166A810D00E705CD /* Scrooge1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F307F166A810900E705CD /* Scrooge1ViewController.m */; };
+		B25F3082166A810D00E705CD /* Scrooge1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B25F3080166A810B00E705CD /* Scrooge1ViewController.xib */; };
+		B25F3084166A8C4700E705CD /* blackbuttonstyle.png in Resources */ = {isa = PBXBuildFile; fileRef = B25F3083166A8C4700E705CD /* blackbuttonstyle.png */; };
+		B25F308C166A917D00E705CD /* FredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F308A166A917C00E705CD /* FredViewController.m */; };
+		B25F308D166A917D00E705CD /* FredViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B25F308B166A917C00E705CD /* FredViewController.xib */; };
+		B25F3095166A95B200E705CD /* PortlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F3093166A95B100E705CD /* PortlyViewController.m */; };
+		B25F3096166A95B200E705CD /* PortlyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B25F3094166A95B100E705CD /* PortlyViewController.xib */; };
+		B25F309A166A979700E705CD /* ClerkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F3098166A979500E705CD /* ClerkViewController.m */; };
+		B25F309B166A979700E705CD /* ClerkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B25F3099166A979600E705CD /* ClerkViewController.xib */; };
+		B25F309F166A9A8F00E705CD /* PastFezziwigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25F309D166A9A8C00E705CD /* PastFezziwigViewController.m */; };
+		B25F30A0166A9A8F00E705CD /* PastFezziwigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B25F309E166A9A8D00E705CD /* PastFezziwigViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +102,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B201664D166C3154008C8AD8 /* PastGhostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastGhostViewController.h; sourceTree = "<group>"; };
+		B201664E166C3154008C8AD8 /* PastGhostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PastGhostViewController.m; sourceTree = "<group>"; };
+		B201664F166C3154008C8AD8 /* PastGhostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PastGhostViewController.xib; sourceTree = "<group>"; };
+		B2016652166C3496008C8AD8 /* PastScroogeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastScroogeViewController.h; sourceTree = "<group>"; };
+		B2016653166C3496008C8AD8 /* PastScroogeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PastScroogeViewController.m; sourceTree = "<group>"; };
+		B2016654166C3496008C8AD8 /* PastScroogeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PastScroogeViewController.xib; sourceTree = "<group>"; };
+		B2016657166C36FE008C8AD8 /* BelleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BelleViewController.h; sourceTree = "<group>"; };
+		B2016658166C36FE008C8AD8 /* BelleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BelleViewController.m; sourceTree = "<group>"; };
+		B2016659166C36FE008C8AD8 /* BelleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BelleViewController.xib; sourceTree = "<group>"; };
+		B201665C166C38BE008C8AD8 /* PastGreedScroogeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastGreedScroogeViewController.h; sourceTree = "<group>"; };
+		B201665D166C38BE008C8AD8 /* PastGreedScroogeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PastGreedScroogeViewController.m; sourceTree = "<group>"; };
+		B201665E166C38BE008C8AD8 /* PastGreedScroogeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PastGreedScroogeViewController.xib; sourceTree = "<group>"; };
+		B2016663166C3C49008C8AD8 /* PresentGhostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentGhostViewController.h; sourceTree = "<group>"; };
+		B2016664166C3C49008C8AD8 /* PresentGhostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentGhostViewController.m; sourceTree = "<group>"; };
+		B2016665166C3C49008C8AD8 /* PresentGhostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentGhostViewController.xib; sourceTree = "<group>"; };
+		B2016668166C3C64008C8AD8 /* PresentTinyTimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentTinyTimViewController.h; sourceTree = "<group>"; };
+		B2016669166C3C64008C8AD8 /* PresentTinyTimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentTinyTimViewController.m; sourceTree = "<group>"; };
+		B201666A166C3C64008C8AD8 /* PresentTinyTimViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentTinyTimViewController.xib; sourceTree = "<group>"; };
+		B201666D166C3C80008C8AD8 /* PresentMarthaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentMarthaViewController.h; sourceTree = "<group>"; };
+		B201666E166C3C80008C8AD8 /* PresentMarthaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentMarthaViewController.m; sourceTree = "<group>"; };
+		B201666F166C3C80008C8AD8 /* PresentMarthaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentMarthaViewController.xib; sourceTree = "<group>"; };
+		B2016672166C3C9D008C8AD8 /* PresentScroogeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentScroogeViewController.h; sourceTree = "<group>"; };
+		B2016673166C3C9D008C8AD8 /* PresentScroogeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentScroogeViewController.m; sourceTree = "<group>"; };
+		B2016674166C3C9D008C8AD8 /* PresentScroogeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentScroogeViewController.xib; sourceTree = "<group>"; };
+		B2016677166C3CB7008C8AD8 /* PresentCratchettFamilyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentCratchettFamilyViewController.h; sourceTree = "<group>"; };
+		B2016678166C3CB7008C8AD8 /* PresentCratchettFamilyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentCratchettFamilyViewController.m; sourceTree = "<group>"; };
+		B2016679166C3CB7008C8AD8 /* PresentCratchettFamilyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresentCratchettFamilyViewController.xib; sourceTree = "<group>"; };
+		B201667D166C3D0E008C8AD8 /* FutureGhostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FutureGhostViewController.h; sourceTree = "<group>"; };
+		B201667E166C3D0E008C8AD8 /* FutureGhostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FutureGhostViewController.m; sourceTree = "<group>"; };
+		B201667F166C3D0E008C8AD8 /* FutureGhostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FutureGhostViewController.xib; sourceTree = "<group>"; };
+		B2016682166C3D28008C8AD8 /* FutureGraveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FutureGraveViewController.h; sourceTree = "<group>"; };
+		B2016683166C3D28008C8AD8 /* FutureGraveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FutureGraveViewController.m; sourceTree = "<group>"; };
+		B2016684166C3D28008C8AD8 /* FutureGraveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FutureGraveViewController.xib; sourceTree = "<group>"; };
+		B2016687166C3D48008C8AD8 /* FutureBobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FutureBobViewController.h; sourceTree = "<group>"; };
+		B2016688166C3D48008C8AD8 /* FutureBobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FutureBobViewController.m; sourceTree = "<group>"; };
+		B2016689166C3D48008C8AD8 /* FutureBobViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FutureBobViewController.xib; sourceTree = "<group>"; };
+		B201668D166C3D89008C8AD8 /* ChangeHappyScroogeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeHappyScroogeViewController.h; sourceTree = "<group>"; };
+		B201668E166C3D89008C8AD8 /* ChangeHappyScroogeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeHappyScroogeViewController.m; sourceTree = "<group>"; };
+		B201668F166C3D89008C8AD8 /* ChangeHappyScroogeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeHappyScroogeViewController.xib; sourceTree = "<group>"; };
+		B2016692166C3DA2008C8AD8 /* ChangeBobRaiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeBobRaiseViewController.h; sourceTree = "<group>"; };
+		B2016693166C3DA3008C8AD8 /* ChangeBobRaiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeBobRaiseViewController.m; sourceTree = "<group>"; };
+		B2016694166C3DA3008C8AD8 /* ChangeBobRaiseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeBobRaiseViewController.xib; sourceTree = "<group>"; };
+		B2016697166C3DC2008C8AD8 /* ChangeFamilyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeFamilyViewController.h; sourceTree = "<group>"; };
+		B2016698166C3DC2008C8AD8 /* ChangeFamilyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeFamilyViewController.m; sourceTree = "<group>"; };
+		B2016699166C3DC2008C8AD8 /* ChangeFamilyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeFamilyViewController.xib; sourceTree = "<group>"; };
 		B25F2FDE166996EB00E705CD /* A Christmas Carol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Christmas Carol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25F2FE2166996EB00E705CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B25F2FE4166996EB00E705CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +169,51 @@
 		B25F3010166996EB00E705CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B25F3012166996EB00E705CD /* A_Christmas_CarolTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A_Christmas_CarolTests.h; sourceTree = "<group>"; };
 		B25F3013166996EB00E705CD /* A_Christmas_CarolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A_Christmas_CarolTests.m; sourceTree = "<group>"; };
+		B25F303C16699B9200E705CD /* PastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastViewController.h; sourceTree = "<group>"; };
+		B25F303D16699B9200E705CD /* PastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PastViewController.m; sourceTree = "<group>"; };
+		B25F30411669A0CC00E705CD /* 1983-mickey-tim-gone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-tim-gone.jpg"; sourceTree = "<group>"; };
+		B25F30421669A0CC00E705CD /* 1983-mickey-children.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-children.jpg"; sourceTree = "<group>"; };
+		B25F30431669A0CC00E705CD /* 1983-mickey-clerk-scrooge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-clerk-scrooge.jpg"; sourceTree = "<group>"; };
+		B25F30441669A0CC00E705CD /* 1983-mickey-mr-fezziwig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-mr-fezziwig.jpg"; sourceTree = "<group>"; };
+		B25F30451669A0CC00E705CD /* 1983-mickey-past.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-past.jpg"; sourceTree = "<group>"; };
+		B25F30461669A0CC00E705CD /* 1983-mickey-solicitors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-solicitors.jpg"; sourceTree = "<group>"; };
+		B25F30471669A0CC00E705CD /* 1983-mickey-fred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-fred.jpg"; sourceTree = "<group>"; };
+		B25F30481669A0CC00E705CD /* 1983-mickey-bob-cratchit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-bob-cratchit.jpg"; sourceTree = "<group>"; };
+		B25F30491669A0CC00E705CD /* 1983-mickey-cratchit-raise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-cratchit-raise.jpg"; sourceTree = "<group>"; };
+		B25F304A1669A0CC00E705CD /* 1983-mickey-happy-scrooge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-happy-scrooge.jpg"; sourceTree = "<group>"; };
+		B25F304B1669A0CC00E705CD /* 1983-mickey-grave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-grave.jpg"; sourceTree = "<group>"; };
+		B25F304C1669A0CC00E705CD /* 1983-mickey-future.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-future.jpg"; sourceTree = "<group>"; };
+		B25F304D1669A0CC00E705CD /* 1983-mickey-tiny-tim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-tiny-tim.jpg"; sourceTree = "<group>"; };
+		B25F304E1669A0CC00E705CD /* 1983-mickey-mrs-cratchit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-mrs-cratchit.jpg"; sourceTree = "<group>"; };
+		B25F304F1669A0CC00E705CD /* 1983-mickey-present.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-present.jpg"; sourceTree = "<group>"; };
+		B25F30501669A0CC00E705CD /* 1983-mickey-greed-scrooge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-greed-scrooge.jpg"; sourceTree = "<group>"; };
+		B25F30511669A0CC00E705CD /* 1983-mickey-belle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1983-mickey-belle.jpg"; sourceTree = "<group>"; };
+		B25F30631669A26800E705CD /* disney-graphics-scrooge-mcduck-514541.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "disney-graphics-scrooge-mcduck-514541.gif"; sourceTree = "<group>"; };
+		B25F30641669A26800E705CD /* ScroogeMcDuck.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ScroogeMcDuck.gif; sourceTree = "<group>"; };
+		B25F30651669A26800E705CD /* scrooge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scrooge.jpg; sourceTree = "<group>"; };
+		B25F30661669A26800E705CD /* Scrooge-McDuck-Thanksgiving-Dinner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Scrooge-McDuck-Thanksgiving-Dinner.jpg"; sourceTree = "<group>"; };
+		B25F306B1669A4F100E705CD /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		B25F306C1669A4F100E705CD /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		B25F30701669A8E700E705CD /* FutureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FutureViewController.h; sourceTree = "<group>"; };
+		B25F30711669A8E700E705CD /* FutureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FutureViewController.m; sourceTree = "<group>"; };
+		B25F30751669AA7300E705CD /* ChangedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangedViewController.h; sourceTree = "<group>"; };
+		B25F30761669AA7300E705CD /* ChangedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangedViewController.m; sourceTree = "<group>"; };
+		B25F307E166A810900E705CD /* Scrooge1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scrooge1ViewController.h; sourceTree = "<group>"; };
+		B25F307F166A810900E705CD /* Scrooge1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scrooge1ViewController.m; sourceTree = "<group>"; };
+		B25F3080166A810B00E705CD /* Scrooge1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Scrooge1ViewController.xib; sourceTree = "<group>"; };
+		B25F3083166A8C4700E705CD /* blackbuttonstyle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackbuttonstyle.png; path = ../blackbuttonstyle.png; sourceTree = "<group>"; };
+		B25F3089166A917B00E705CD /* FredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FredViewController.h; sourceTree = "<group>"; };
+		B25F308A166A917C00E705CD /* FredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FredViewController.m; sourceTree = "<group>"; };
+		B25F308B166A917C00E705CD /* FredViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FredViewController.xib; sourceTree = "<group>"; };
+		B25F3092166A95B000E705CD /* PortlyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortlyViewController.h; sourceTree = "<group>"; };
+		B25F3093166A95B100E705CD /* PortlyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortlyViewController.m; sourceTree = "<group>"; };
+		B25F3094166A95B100E705CD /* PortlyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortlyViewController.xib; sourceTree = "<group>"; };
+		B25F3097166A979500E705CD /* ClerkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClerkViewController.h; sourceTree = "<group>"; };
+		B25F3098166A979500E705CD /* ClerkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClerkViewController.m; sourceTree = "<group>"; };
+		B25F3099166A979600E705CD /* ClerkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClerkViewController.xib; sourceTree = "<group>"; };
+		B25F309C166A9A8C00E705CD /* PastFezziwigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastFezziwigViewController.h; sourceTree = "<group>"; };
+		B25F309D166A9A8C00E705CD /* PastFezziwigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PastFezziwigViewController.m; sourceTree = "<group>"; };
+		B25F309E166A9A8D00E705CD /* PastFezziwigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PastFezziwigViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +240,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2016661166C3B8C008C8AD8 /* Past */ = {
+			isa = PBXGroup;
+			children = (
+				B25F303C16699B9200E705CD /* PastViewController.h */,
+				B25F303D16699B9200E705CD /* PastViewController.m */,
+				B25F309C166A9A8C00E705CD /* PastFezziwigViewController.h */,
+				B25F309D166A9A8C00E705CD /* PastFezziwigViewController.m */,
+				B25F309E166A9A8D00E705CD /* PastFezziwigViewController.xib */,
+				B201664D166C3154008C8AD8 /* PastGhostViewController.h */,
+				B201664E166C3154008C8AD8 /* PastGhostViewController.m */,
+				B201664F166C3154008C8AD8 /* PastGhostViewController.xib */,
+				B2016652166C3496008C8AD8 /* PastScroogeViewController.h */,
+				B2016653166C3496008C8AD8 /* PastScroogeViewController.m */,
+				B2016654166C3496008C8AD8 /* PastScroogeViewController.xib */,
+				B2016657166C36FE008C8AD8 /* BelleViewController.h */,
+				B2016658166C36FE008C8AD8 /* BelleViewController.m */,
+				B2016659166C36FE008C8AD8 /* BelleViewController.xib */,
+				B201665C166C38BE008C8AD8 /* PastGreedScroogeViewController.h */,
+				B201665D166C38BE008C8AD8 /* PastGreedScroogeViewController.m */,
+				B201665E166C38BE008C8AD8 /* PastGreedScroogeViewController.xib */,
+			);
+			name = Past;
+			sourceTree = "<group>";
+		};
+		B2016662166C3BDC008C8AD8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B25F307E166A810900E705CD /* Scrooge1ViewController.h */,
+				B25F307F166A810900E705CD /* Scrooge1ViewController.m */,
+				B25F3080166A810B00E705CD /* Scrooge1ViewController.xib */,
+				B25F3089166A917B00E705CD /* FredViewController.h */,
+				B25F308A166A917C00E705CD /* FredViewController.m */,
+				B25F308B166A917C00E705CD /* FredViewController.xib */,
+				B25F3092166A95B000E705CD /* PortlyViewController.h */,
+				B25F3093166A95B100E705CD /* PortlyViewController.m */,
+				B25F3094166A95B100E705CD /* PortlyViewController.xib */,
+				B25F3097166A979500E705CD /* ClerkViewController.h */,
+				B25F3098166A979500E705CD /* ClerkViewController.m */,
+				B25F3099166A979600E705CD /* ClerkViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		B201667C166C3CD2008C8AD8 /* Present */ = {
+			isa = PBXGroup;
+			children = (
+				B25F306B1669A4F100E705CD /* PresentViewController.h */,
+				B25F306C1669A4F100E705CD /* PresentViewController.m */,
+				B2016663166C3C49008C8AD8 /* PresentGhostViewController.h */,
+				B2016664166C3C49008C8AD8 /* PresentGhostViewController.m */,
+				B2016665166C3C49008C8AD8 /* PresentGhostViewController.xib */,
+				B2016668166C3C64008C8AD8 /* PresentTinyTimViewController.h */,
+				B2016669166C3C64008C8AD8 /* PresentTinyTimViewController.m */,
+				B201666A166C3C64008C8AD8 /* PresentTinyTimViewController.xib */,
+				B201666D166C3C80008C8AD8 /* PresentMarthaViewController.h */,
+				B201666E166C3C80008C8AD8 /* PresentMarthaViewController.m */,
+				B201666F166C3C80008C8AD8 /* PresentMarthaViewController.xib */,
+				B2016672166C3C9D008C8AD8 /* PresentScroogeViewController.h */,
+				B2016673166C3C9D008C8AD8 /* PresentScroogeViewController.m */,
+				B2016674166C3C9D008C8AD8 /* PresentScroogeViewController.xib */,
+				B2016677166C3CB7008C8AD8 /* PresentCratchettFamilyViewController.h */,
+				B2016678166C3CB7008C8AD8 /* PresentCratchettFamilyViewController.m */,
+				B2016679166C3CB7008C8AD8 /* PresentCratchettFamilyViewController.xib */,
+			);
+			name = Present;
+			sourceTree = "<group>";
+		};
+		B201668C166C3D58008C8AD8 /* Future */ = {
+			isa = PBXGroup;
+			children = (
+				B25F30701669A8E700E705CD /* FutureViewController.h */,
+				B25F30711669A8E700E705CD /* FutureViewController.m */,
+				B201667D166C3D0E008C8AD8 /* FutureGhostViewController.h */,
+				B201667E166C3D0E008C8AD8 /* FutureGhostViewController.m */,
+				B201667F166C3D0E008C8AD8 /* FutureGhostViewController.xib */,
+				B2016682166C3D28008C8AD8 /* FutureGraveViewController.h */,
+				B2016683166C3D28008C8AD8 /* FutureGraveViewController.m */,
+				B2016684166C3D28008C8AD8 /* FutureGraveViewController.xib */,
+				B2016687166C3D48008C8AD8 /* FutureBobViewController.h */,
+				B2016688166C3D48008C8AD8 /* FutureBobViewController.m */,
+				B2016689166C3D48008C8AD8 /* FutureBobViewController.xib */,
+			);
+			name = Future;
+			sourceTree = "<group>";
+		};
+		B201669C166C3DCD008C8AD8 /* Changed */ = {
+			isa = PBXGroup;
+			children = (
+				B25F30751669AA7300E705CD /* ChangedViewController.h */,
+				B25F30761669AA7300E705CD /* ChangedViewController.m */,
+				B201668D166C3D89008C8AD8 /* ChangeHappyScroogeViewController.h */,
+				B201668E166C3D89008C8AD8 /* ChangeHappyScroogeViewController.m */,
+				B201668F166C3D89008C8AD8 /* ChangeHappyScroogeViewController.xib */,
+				B2016692166C3DA2008C8AD8 /* ChangeBobRaiseViewController.h */,
+				B2016693166C3DA3008C8AD8 /* ChangeBobRaiseViewController.m */,
+				B2016694166C3DA3008C8AD8 /* ChangeBobRaiseViewController.xib */,
+				B2016697166C3DC2008C8AD8 /* ChangeFamilyViewController.h */,
+				B2016698166C3DC2008C8AD8 /* ChangeFamilyViewController.m */,
+				B2016699166C3DC2008C8AD8 /* ChangeFamilyViewController.xib */,
+			);
+			name = Changed;
+			sourceTree = "<group>";
+		};
 		B25F2FD3166996EB00E705CD = {
 			isa = PBXGroup;
 			children = (
@@ -117,12 +376,18 @@
 		B25F2FE8166996EB00E705CD /* A Christmas Carol */ = {
 			isa = PBXGroup;
 			children = (
+				B25F301D1669978800E705CD /* CmasImages */,
 				B25F2FF1166996EB00E705CD /* AppDelegate.h */,
 				B25F2FF2166996EB00E705CD /* AppDelegate.m */,
 				B25F2FFA166996EB00E705CD /* MainStoryboard.storyboard */,
 				B25F2FFD166996EB00E705CD /* ViewController.h */,
 				B25F2FFE166996EB00E705CD /* ViewController.m */,
 				B25F2FE9166996EB00E705CD /* Supporting Files */,
+				B2016662166C3BDC008C8AD8 /* Main */,
+				B2016661166C3B8C008C8AD8 /* Past */,
+				B201667C166C3CD2008C8AD8 /* Present */,
+				B201668C166C3D58008C8AD8 /* Future */,
+				B201669C166C3DCD008C8AD8 /* Changed */,
 			);
 			path = "A Christmas Carol";
 			sourceTree = "<group>";
@@ -158,6 +423,35 @@
 				B25F300F166996EB00E705CD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B25F301D1669978800E705CD /* CmasImages */ = {
+			isa = PBXGroup;
+			children = (
+				B25F3083166A8C4700E705CD /* blackbuttonstyle.png */,
+				B25F30631669A26800E705CD /* disney-graphics-scrooge-mcduck-514541.gif */,
+				B25F30641669A26800E705CD /* ScroogeMcDuck.gif */,
+				B25F30651669A26800E705CD /* scrooge.jpg */,
+				B25F30661669A26800E705CD /* Scrooge-McDuck-Thanksgiving-Dinner.jpg */,
+				B25F30411669A0CC00E705CD /* 1983-mickey-tim-gone.jpg */,
+				B25F30421669A0CC00E705CD /* 1983-mickey-children.jpg */,
+				B25F30431669A0CC00E705CD /* 1983-mickey-clerk-scrooge.jpg */,
+				B25F30441669A0CC00E705CD /* 1983-mickey-mr-fezziwig.jpg */,
+				B25F30451669A0CC00E705CD /* 1983-mickey-past.jpg */,
+				B25F30461669A0CC00E705CD /* 1983-mickey-solicitors.jpg */,
+				B25F30471669A0CC00E705CD /* 1983-mickey-fred.jpg */,
+				B25F30481669A0CC00E705CD /* 1983-mickey-bob-cratchit.jpg */,
+				B25F30491669A0CC00E705CD /* 1983-mickey-cratchit-raise.jpg */,
+				B25F304A1669A0CC00E705CD /* 1983-mickey-happy-scrooge.jpg */,
+				B25F304B1669A0CC00E705CD /* 1983-mickey-grave.jpg */,
+				B25F304C1669A0CC00E705CD /* 1983-mickey-future.jpg */,
+				B25F304D1669A0CC00E705CD /* 1983-mickey-tiny-tim.jpg */,
+				B25F304E1669A0CC00E705CD /* 1983-mickey-mrs-cratchit.jpg */,
+				B25F304F1669A0CC00E705CD /* 1983-mickey-present.jpg */,
+				B25F30501669A0CC00E705CD /* 1983-mickey-greed-scrooge.jpg */,
+				B25F30511669A0CC00E705CD /* 1983-mickey-belle.jpg */,
+			);
+			path = CmasImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +530,48 @@
 				B25F2FF7166996EB00E705CD /* Default@2x.png in Resources */,
 				B25F2FF9166996EB00E705CD /* Default-568h@2x.png in Resources */,
 				B25F2FFC166996EB00E705CD /* MainStoryboard.storyboard in Resources */,
+				B25F30521669A0CC00E705CD /* 1983-mickey-tim-gone.jpg in Resources */,
+				B25F30531669A0CC00E705CD /* 1983-mickey-children.jpg in Resources */,
+				B25F30541669A0CC00E705CD /* 1983-mickey-clerk-scrooge.jpg in Resources */,
+				B25F30551669A0CC00E705CD /* 1983-mickey-mr-fezziwig.jpg in Resources */,
+				B25F30561669A0CC00E705CD /* 1983-mickey-past.jpg in Resources */,
+				B25F30571669A0CC00E705CD /* 1983-mickey-solicitors.jpg in Resources */,
+				B25F30581669A0CC00E705CD /* 1983-mickey-fred.jpg in Resources */,
+				B25F30591669A0CC00E705CD /* 1983-mickey-bob-cratchit.jpg in Resources */,
+				B25F305A1669A0CC00E705CD /* 1983-mickey-cratchit-raise.jpg in Resources */,
+				B25F305B1669A0CC00E705CD /* 1983-mickey-happy-scrooge.jpg in Resources */,
+				B25F305C1669A0CC00E705CD /* 1983-mickey-grave.jpg in Resources */,
+				B25F305D1669A0CC00E705CD /* 1983-mickey-future.jpg in Resources */,
+				B25F305E1669A0CC00E705CD /* 1983-mickey-tiny-tim.jpg in Resources */,
+				B25F305F1669A0CC00E705CD /* 1983-mickey-mrs-cratchit.jpg in Resources */,
+				B25F30601669A0CC00E705CD /* 1983-mickey-present.jpg in Resources */,
+				B25F30611669A0CC00E705CD /* 1983-mickey-greed-scrooge.jpg in Resources */,
+				B25F30621669A0CC00E705CD /* 1983-mickey-belle.jpg in Resources */,
+				B25F30671669A26800E705CD /* disney-graphics-scrooge-mcduck-514541.gif in Resources */,
+				B25F30681669A26800E705CD /* ScroogeMcDuck.gif in Resources */,
+				B25F30691669A26800E705CD /* scrooge.jpg in Resources */,
+				B25F306A1669A26800E705CD /* Scrooge-McDuck-Thanksgiving-Dinner.jpg in Resources */,
+				B25F3082166A810D00E705CD /* Scrooge1ViewController.xib in Resources */,
+				B25F3084166A8C4700E705CD /* blackbuttonstyle.png in Resources */,
+				B25F308D166A917D00E705CD /* FredViewController.xib in Resources */,
+				B25F3096166A95B200E705CD /* PortlyViewController.xib in Resources */,
+				B25F309B166A979700E705CD /* ClerkViewController.xib in Resources */,
+				B25F30A0166A9A8F00E705CD /* PastFezziwigViewController.xib in Resources */,
+				B2016651166C3154008C8AD8 /* PastGhostViewController.xib in Resources */,
+				B2016656166C3496008C8AD8 /* PastScroogeViewController.xib in Resources */,
+				B201665B166C36FE008C8AD8 /* BelleViewController.xib in Resources */,
+				B2016660166C38BE008C8AD8 /* PastGreedScroogeViewController.xib in Resources */,
+				B2016667166C3C49008C8AD8 /* PresentGhostViewController.xib in Resources */,
+				B201666C166C3C64008C8AD8 /* PresentTinyTimViewController.xib in Resources */,
+				B2016671166C3C80008C8AD8 /* PresentMarthaViewController.xib in Resources */,
+				B2016676166C3C9D008C8AD8 /* PresentScroogeViewController.xib in Resources */,
+				B201667B166C3CB7008C8AD8 /* PresentCratchettFamilyViewController.xib in Resources */,
+				B2016681166C3D0E008C8AD8 /* FutureGhostViewController.xib in Resources */,
+				B2016686166C3D28008C8AD8 /* FutureGraveViewController.xib in Resources */,
+				B201668B166C3D48008C8AD8 /* FutureBobViewController.xib in Resources */,
+				B2016691166C3D89008C8AD8 /* ChangeHappyScroogeViewController.xib in Resources */,
+				B2016696166C3DA3008C8AD8 /* ChangeBobRaiseViewController.xib in Resources */,
+				B201669B166C3DC2008C8AD8 /* ChangeFamilyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +609,30 @@
 				B25F2FEF166996EB00E705CD /* main.m in Sources */,
 				B25F2FF3166996EB00E705CD /* AppDelegate.m in Sources */,
 				B25F2FFF166996EB00E705CD /* ViewController.m in Sources */,
+				B25F303F16699B9200E705CD /* PastViewController.m in Sources */,
+				B25F306E1669A4F100E705CD /* PresentViewController.m in Sources */,
+				B25F30731669A8E700E705CD /* FutureViewController.m in Sources */,
+				B25F30781669AA7300E705CD /* ChangedViewController.m in Sources */,
+				B25F3081166A810D00E705CD /* Scrooge1ViewController.m in Sources */,
+				B25F308C166A917D00E705CD /* FredViewController.m in Sources */,
+				B25F3095166A95B200E705CD /* PortlyViewController.m in Sources */,
+				B25F309A166A979700E705CD /* ClerkViewController.m in Sources */,
+				B25F309F166A9A8F00E705CD /* PastFezziwigViewController.m in Sources */,
+				B2016650166C3154008C8AD8 /* PastGhostViewController.m in Sources */,
+				B2016655166C3496008C8AD8 /* PastScroogeViewController.m in Sources */,
+				B201665A166C36FE008C8AD8 /* BelleViewController.m in Sources */,
+				B201665F166C38BE008C8AD8 /* PastGreedScroogeViewController.m in Sources */,
+				B2016666166C3C49008C8AD8 /* PresentGhostViewController.m in Sources */,
+				B201666B166C3C64008C8AD8 /* PresentTinyTimViewController.m in Sources */,
+				B2016670166C3C80008C8AD8 /* PresentMarthaViewController.m in Sources */,
+				B2016675166C3C9D008C8AD8 /* PresentScroogeViewController.m in Sources */,
+				B201667A166C3CB7008C8AD8 /* PresentCratchettFamilyViewController.m in Sources */,
+				B2016680166C3D0E008C8AD8 /* FutureGhostViewController.m in Sources */,
+				B2016685166C3D28008C8AD8 /* FutureGraveViewController.m in Sources */,
+				B201668A166C3D48008C8AD8 /* FutureBobViewController.m in Sources */,
+				B2016690166C3D89008C8AD8 /* ChangeHappyScroogeViewController.m in Sources */,
+				B2016695166C3DA3008C8AD8 /* ChangeBobRaiseViewController.m in Sources */,
+				B201669A166C3DC2008C8AD8 /* ChangeFamilyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +809,7 @@
 				B25F3019166996EB00E705CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B25F301A166996EB00E705CD /* Build configuration list for PBXNativeTarget "A Christmas CarolTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +818,7 @@
 				B25F301C166996EB00E705CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
