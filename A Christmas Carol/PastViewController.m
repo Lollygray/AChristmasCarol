@@ -37,60 +37,40 @@
 }
 
 - (IBAction)fezziwigButton:(id)sender {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        fezziwig = [[PastFezziwigViewController alloc]init];
-    });
+    fezziwig = [[PastFezziwigViewController alloc]init];
     [fezziwig setContentSizeForViewInPopover:CGSizeMake(275, 50)];
-    
     popover = [[UIPopoverController alloc] initWithContentViewController:fezziwig];
     [popover setDelegate:self];
     [popover presentPopoverFromRect:CGRectMake(160, 340, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
 }
 
 - (IBAction)pastGhostButton:(id)sender {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        pastghost = [[PastGhostViewController alloc]init];
-    });
+    pastghost = [[PastGhostViewController alloc]init];
     [pastghost setContentSizeForViewInPopover:CGSizeMake(275, 50)];
-    
     popover = [[UIPopoverController alloc] initWithContentViewController:pastghost];
     [popover setDelegate:self];
     [popover presentPopoverFromRect:CGRectMake(360, 160, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
 }
 
 - (IBAction)pastScroogeButton:(id)sender {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        pastscrooge = [[PastScroogeViewController alloc]init];
-    });
+    pastscrooge = [[PastScroogeViewController alloc]init];
     [pastscrooge setContentSizeForViewInPopover:CGSizeMake(200, 50)];
-    
     popover = [[UIPopoverController alloc] initWithContentViewController:pastscrooge];
     [popover setDelegate:self];
     [popover presentPopoverFromRect:CGRectMake(475, 450, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
 }
 
 - (IBAction)belleButton:(id)sender {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        belle = [[BelleViewController alloc]init];
-    });
+    belle = [[BelleViewController alloc]init];
     [belle setContentSizeForViewInPopover:CGSizeMake(255, 50)];
-    
     popover = [[UIPopoverController alloc] initWithContentViewController:belle];
     [popover setDelegate:self];
     [popover presentPopoverFromRect:CGRectMake(195, 700, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
 }
 
 - (IBAction)greedScroogeButton:(id)sender {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        greedscrooge= [[PastGreedScroogeViewController alloc]init];
-    });
+    greedscrooge= [[PastGreedScroogeViewController alloc]init];
     [greedscrooge setContentSizeForViewInPopover:CGSizeMake(327, 50)];
-    
     popover = [[UIPopoverController alloc] initWithContentViewController:greedscrooge];
     [popover setDelegate:self];
     [popover presentPopoverFromRect:CGRectMake(525, 700, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
