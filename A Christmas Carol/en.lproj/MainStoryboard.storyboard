@@ -498,6 +498,36 @@
         <image name="blackbuttonstyle.png" width="297" height="57"/>
         <image name="scrooge.jpg" width="250" height="330"/>
     </resources>
+    <classes>
+        <class className="ChangedViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ChangedViewController.h"/>
+        </class>
+        <class className="FutureViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FutureViewController.h"/>
+        </class>
+        <class className="PastViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PastViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="belleButton:"/>
+                <relationship kind="action" name="fezziwigButton:"/>
+                <relationship kind="action" name="greedScroogeButton:"/>
+                <relationship kind="action" name="pastGhostButton:"/>
+                <relationship kind="action" name="pastScroogeButton:"/>
+            </relationships>
+        </class>
+        <class className="PresentViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PresentViewController.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="clerkButton:"/>
+                <relationship kind="action" name="fredButton:"/>
+                <relationship kind="action" name="portlyButton:"/>
+                <relationship kind="action" name="scrooge1Button:"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
