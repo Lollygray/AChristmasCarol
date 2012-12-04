@@ -47,33 +47,33 @@
 
 - (IBAction)presentTimButton:(id)sender {
     presenttim = [[PresentTinyTimViewController alloc]init];
-    [presenttim setContentSizeForViewInPopover:CGSizeMake(290, 50)];
+    [presenttim setContentSizeForViewInPopover:CGSizeMake(205, 50)];
     popover = [[UIPopoverController alloc] initWithContentViewController:presenttim];
     [popover setDelegate:self];
-    [popover presentPopoverFromRect:CGRectMake(380, 300, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
+    [popover presentPopoverFromRect:CGRectMake(380, 620, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
 }
 
 - (IBAction)presentMarthaButton:(id)sender {
     presentmartha = [[PresentMarthaViewController alloc]init];
-    [presentmartha setContentSizeForViewInPopover:CGSizeMake(290, 50)];
+    [presentmartha setContentSizeForViewInPopover:CGSizeMake(356, 50)];
     popover = [[UIPopoverController alloc] initWithContentViewController:presentmartha];
     [popover setDelegate:self];
-    [popover presentPopoverFromRect:CGRectMake(380, 300, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
+    [popover presentPopoverFromRect:CGRectMake(150, 340, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
 }
 
 - (IBAction)presentScroogeButton:(id)sender {
     presentscrooge = [[PresentScroogeViewController alloc]init];
-    [presentscrooge setContentSizeForViewInPopover:CGSizeMake(290, 50)];
+    [presentscrooge setContentSizeForViewInPopover:CGSizeMake(253, 50)];
     popover = [[UIPopoverController alloc] initWithContentViewController:presentscrooge];
     [popover setDelegate:self];
-    [popover presentPopoverFromRect:CGRectMake(380, 300, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
+    [popover presentPopoverFromRect:CGRectMake(380, 340, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
 }
 
 - (IBAction)presentFamilyButton:(id)sender {
     presentfamily = [[PresentCratchettFamilyViewController alloc]init];
-    [presentfamily setContentSizeForViewInPopover:CGSizeMake(290, 50)];
+    [presentfamily setContentSizeForViewInPopover:CGSizeMake(206, 50)];
     popover = [[UIPopoverController alloc] initWithContentViewController:presentfamily];
     [popover setDelegate:self];
-    [popover presentPopoverFromRect:CGRectMake(380, 300, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
+    [popover presentPopoverFromRect:CGRectMake(620, 340, 10, 10) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
 }
 @end
